@@ -3,14 +3,13 @@ nav ul {
      margin: 0;
      padding: 0;
      background-color: #01200F;
-     display: flex;
-        }
+     display: flex; }
+
 nav ul li {
      padding: 15px 20px;
      color: #ffffff;
      cursor: pointer;
-     position: relative;
-        }
+     position: relative;}
         
 nav ul li:hover {background-color: #D3D3D3; }
 
@@ -24,8 +23,7 @@ nav ul li:hover {background-color: #D3D3D3; }
      padding: 0;
      margin: 0; }
 
-.dropdown li {
-     padding: 10px;}
+.dropdown li {padding: 10px;}
 
 .dropdown li a {
      color: white;

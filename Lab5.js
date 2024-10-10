@@ -5,6 +5,8 @@ document.getElementById("nameButton").addEventListener("click", function() {
     document.getElementById('navItem1').addEventListener('click', function() {
     window.location.href = 'Lab3_ITM780.html' })
 
+    document.getElementById('navItem2').addEventListener('click', function() {
+    window.location.href = 'Lab3_ITM780.html' })
 
 
     document.getElementById('photo').addEventListener('click', function() {

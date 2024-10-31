@@ -73,15 +73,13 @@ nav ul li:hover {background-color: #D3D3D3; }
 .show {display: block; }
 
 
-
-
-
+/* Makes Text Bold and Stands Out */
 form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
-
+/* Makes each Option in the same Format */
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
@@ -92,10 +90,9 @@ form textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #01200F;
-    border-radius: 5px;
+    border-radius: 5px;}
 
-}
-
+/* Outlines the Button with the Colour Green  */
 form button {
     padding: 10px 20px;
     font-size: 1em;
@@ -106,16 +103,18 @@ form button {
     border-radius: 5px;
     cursor: pointer;}
 
+/* Warps text into a line */
 .radio-group {
     display: flex;
     align-items: center;
     gap: 5px; }
 
-
+/* Warps text into a line */
 .checkbox-group {
     display: flex;
     align-items: center;
     gap: 10px;}
 
+/* Makes the Button Faded when Hovering on the Buttons */
 form button:hover {
     opacity: 0.8;}

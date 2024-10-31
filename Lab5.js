@@ -6,7 +6,7 @@ document.getElementById('navItem1').addEventListener('click', function() {
     window.location.href = 'Index.html' })
 
 document.getElementById('navItem2').addEventListener('click', function() {
-    window.location.href = 'DanielChauu.github.io/Contact.html' })
+    window.location.href = 'Contact.html' })
 
 
     document.getElementById('photo').addEventListener('click', function() {

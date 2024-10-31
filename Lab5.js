@@ -2,11 +2,11 @@ document.getElementById("nameButton").addEventListener("click", function() {
     const userName = prompt("Please enter your name");
     document.getElementById("nameDisplay").textContent = `Hello, ${userName}! Welcome to the site.`})
 
-    document.getElementById('navItem1').addEventListener('click', function() {
-    window.location.href = 'Lab3_ITM780.html' })
+document.getElementById('navItem1').addEventListener('click', function() {
+    window.location.href = 'Index.html' })
 
-    document.getElementById('navItem2').addEventListener('click', function() {
-    window.location.href = 'Lab3_ITM780.html' })
+document.getElementById('navItem2').addEventListener('click', function() {
+    window.location.href = 'DanielChauu.github.io/Contact.html' })
 
 
     document.getElementById('photo').addEventListener('click', function() {

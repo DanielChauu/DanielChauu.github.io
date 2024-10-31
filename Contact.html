@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+<title> Contact Page</title>
+
+
+    <script src="Lab6P.js" defer></script>
+    <script src="Lab6-2.js" defer></script>
+    <link rel="stylesheet" href="Lab6.css">
+
+
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li id="navItem1">Portfolio</li>
+    <li id="navItem2">Home Page</li>
+    <li id="navItem4" onmouseover="showDropdown()" onmouseout="hideDropdown()">Social
+      <ul id="dropdown" class="dropdown">
+        <li><a href="https://www.linkedin.com/in/daniel-chau-abb2a930b/">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/daniel.chau_/">Instagram</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+<h1> Contact </h1>
+
+
+
+    <section id="contact">
+
+  </section>
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <br>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" required>
+
+    <br>
+
+
+  <label for="number">Phone Number:</label>
+  <input type="text" id="number" name="Phone Number" required>
+
+    <br>
+
+
+  <label>Preferred Contact Method:</label>
+  <input type="radio" id="contactEmail" name="contactMethod" value="Email" required>
+  <label for="contactEmail">Email</label>
+  <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+  <label for="contactPhone">Phone</label>
+
+  <br>
+
+   <label for="additionalInfo">Additional Information:</label>
+  <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea>
+
+  <br>
+
+  <button type="submit">Submit</button>
+  <button type="reset">Clear</button>
+
+    <label for="startDate">Preferred Start Date:</label>
+  <input type="date" id="startDate" name="startDate">
+
+
+
+
+
+
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

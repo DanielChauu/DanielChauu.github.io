@@ -32,10 +32,9 @@
 
 
 
-    <section id="contact">
-
-  </section>
 <form>
+
+ <!-- Label Element to get their Names, Email, and Phone Number -->
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
 
@@ -46,36 +45,78 @@
 
     <br>
 
-
   <label for="number">Phone Number:</label>
   <input type="text" id="number" name="Phone Number" required>
 
     <br>
 
-
-  <label>Preferred Contact Method:</label>
-  <input type="radio" id="contactEmail" name="contactMethod" value="Email" required>
+ <!-- Raido Buttons for Contact Preference -->
+ <label>Preferred Contact Method:</label>
+<div class="radio-group">
+  <input type="radio" id="contactEmail" name="contactMethod" value="Email">
   <label for="contactEmail">Email</label>
+  
   <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
   <label for="contactPhone">Phone</label>
+</div>
+
 
   <br>
 
+
+   <!-- Drop Down Menu on Age -->
+    <label for="Age">How Old Are You?</label>
+  <select id="Age" name="Age">
+    <option value="under20">Under 20</option>
+    <option value="20-35">20-35</option>
+    <option value="35plus">Over 35</option>
+  </select>
+
+
+  <br>
+
+
+   <!-- Using Checkboxes to understand what technology they use -->
+<div>
+<label>What Devices Do You Use?</label>
+<div class="checkbox-group">
+  <input type="checkbox" id="device1" name="devices" value="Smart Phone">
+  <label for="device1">Smart Phone</label>
+
+  <input type="checkbox" id="device2" name="devices" value="Desktop">
+  <label for="device2">Desktop</label>
+
+  <input type="checkbox" id="device3" name="devices" value="Laptop">
+  <label for="device3">Laptop</label>
+</div>
+
+
+  <br>
+
+     <!-- Using Multiple-Line Text Field to ask for Additional Information -->
    <label for="additionalInfo">Additional Information:</label>
   <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea>
 
   <br>
 
-  <button type="submit">Submit</button>
-  <button type="reset">Clear</button>
-
-    <label for="startDate">Preferred Start Date:</label>
+    <!--Using Date Input to get Specific Date to Reach Back -->
+    <label for="startDate">Preferred Date to Reach Back:</label>
   <input type="date" id="startDate" name="startDate">
 
 
 
+  <br>
 
 
+   <label for="colorpicker">Favourite Colour:</label>
+   <input type="color" id="colorpicker" name="favcolour" value="#ff0000">
+
+
+  <br>
+
+
+    <button type="button" id="submitButton">Submit</button>
+    <button type="button" id="clearButton">Clear</button>
 
   </form>
 

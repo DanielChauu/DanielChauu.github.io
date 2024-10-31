@@ -1,6 +1,5 @@
 // Function to save form data to local storage
 function saveToLocalStorage() {
-
     // Collecting The Data 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;

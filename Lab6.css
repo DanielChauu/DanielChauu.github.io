@@ -71,3 +71,51 @@ nav ul li:hover {background-color: #D3D3D3; }
 .dropdown li a:hover { background-color: #D3D3D3;}
 
 .show {display: block; }
+
+
+
+
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #01200F;
+    border-radius: 5px;
+
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #01200F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 5px; }
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+
+form button:hover {
+    opacity: 0.8;}

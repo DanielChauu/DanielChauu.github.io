@@ -18,13 +18,3 @@ function hideDropdown() {
 
 
 
-
-
-
-document.getElementById("navItem1").addEventListener("click", () => {
-    document.getElementById("portfolio").scrollIntoView({ behavior: "smooth" });
-});
-
-document.getElementById("navItem2").addEventListener("click", () => {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-});

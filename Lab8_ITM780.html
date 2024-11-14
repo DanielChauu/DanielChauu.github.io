@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Accessible Website</title>
+<link rel="stylesheet" href="Lab8.css">
+<script src="Lab8.js" defer></script>
+</head>
+<body>
+
+
+<h1> My Accessible Website</h1>
+
+
+<h2>Accessibility Features</h2>
+
+<button onclick="enlargeText()">Enlarge Text</button>
+
+
+<button onclick="setColorScheme('normal')">Normal Vision</button>
+
+<button onclick="setColorScheme('deuteranopia')">Deuteranopia</button>
+
+<button onclick="setColorScheme('protanopia')">Protanopia</button>
+
+<button onclick="setColorScheme('tritanopia')">Tritanopia</button>
+
+<br>
+
+<body>
+    <div class="media-section">
+        <h2>Audio</h2>
+        <figure>
+            <audio controls>
+                <source src="music.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <figcaption>
+               YouTube. (n.d.-a). YouTube. https://www.youtube.com/watch?v=V1RPi2MYptM 
+            </figcaption>
+        </figure>
+    </div>
+
+<br>
+
+<h2>Image Gallery with Alt-Text</h2>
+
+<div class="image-container">
+
+
+    <figure>
+      <img src="IMG_1603.jpg" alt="A Tennis Game At Sobey's Arena" id="image1">
+      <figcaption>Photo taken on 8/7/2024 at Sobey's Arena</figcaption>
+      <button onclick="showAltText('image1', 'altText1')">Description of Image</button>
+      <p id="altText1" class="alt-text">A Tennis Game At Sobey's Arena</p>
+    </figure>
+
+
+
+     <figure>
+      <img src="IMG_1536.jpg" alt="A View of South Beach" id="image2">
+      <figcaption>Photo taken on 7/29/2024 at Florida</figcaption>
+      <button onclick="showAltText('image2', 'altText2')">Description of Image</button>
+      <p id="altText2" class="alt-text">A View of South Beach</p>
+    </figure>
+
+    <figure>
+      <img src="IMG_8481.jpg" alt="Description of the first image" id="image3">
+      <figcaption>Photo taken on 1/6/2024 at ScotiaBank Arena </figcaption>
+      <button onclick="showAltText('image3', 'altText3')">Description of Image</button>
+      <p id="altText3" class="alt-text">A Concert being Preformed by Travis Scott</p>
+    </figure>
+
+</div>
+</body>
+</html>

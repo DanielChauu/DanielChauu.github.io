@@ -11,6 +11,11 @@ function saveToLocalStorage() {
     const startDate = document.getElementById("startDate").value;
     const favcolor = document.getElementById("colorpicker").value;
 
+
+     if (!email.includes("@")) {
+        alert("Please enter a valid email address that contains '@'.");
+        return; }
+
     // Store Individual field value in local storage
     localStorage.setItem("name", name);
     localStorage.setItem("email", email);
@@ -23,6 +28,7 @@ function saveToLocalStorage() {
     localStorage.setItem("favcolor", favcolor);
 
     alert("Your information has been saved!");
+    resetForm();
 }
 
 // Function to clear the form fields

@@ -19,3 +19,4 @@ function enlargeText() {document.body.style.fontSize = "25px";}
 
 function showAltText(imageId, altTextId) {
       const altTextElement = document.getElementById(altTextId); altTextElement.style.display = altTextElement.style.display === "none" ? "block" : "none";}
+

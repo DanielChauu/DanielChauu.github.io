@@ -45,9 +45,66 @@ nav ul li:hover {background-color: #D3D3D3; }
 .show {display: block; }
 
 
-h1  {font-family: Verdana, sans-serif;font-size: 35pt; color:#01200F ;font-weight: bold; text-align: center; }
-p {font-family:Times New Roman, serif;font-size: 14pt; color:#01200F ; text-align: center; }
-body  { text-align: center;background-color: #FFECCC; }
-body {font-family: Arial, sans-serif;font-size: 12pt;background-color: #FFECCC; color: #01200F;margin: 15pt;text-align: center; }
-h5   {font-family: Times New Roman, serif;font-size: 14pt; }
-h4 {font-family: Verdana, sans-serif;font-size: 10pt; color:#01200F ; text-align: center; }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #FFECCC;
+    color: #01200F;
+    margin: 15pt;
+    text-align: center; 
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 35pt;
+    color: #01200F;
+    font-weight: bold;
+    text-align: center; 
+}
+
+p {
+    font-family: Times New Roman, serif;
+    font-size: 14pt;
+    color: #01200F;
+    text-align: center;
+}
+
+h5 {
+    font-family: Times New Roman, serif;
+    font-size: 14pt;
+}
+
+h4 {
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+    color: #01200F;
+    text-align: center;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+.Image1 {
+    width: 200px;
+    height: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.alt-text {
+    display: none;
+    font-size: 0.9em;
+    color: #000000; /* Fixed the hex code */
+}

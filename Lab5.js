@@ -26,4 +26,10 @@ function hideDropdown() {
     document.getElementById("dropdown").classList.remove("show")}
 
 
+    function showAltText(imageId, altTextId) {
+      const altTextElement = document.getElementById(altTextId); altTextElement.style.display = altTextElement.style.display === "none" ? "block" : "none";}
 
+
+function showAltText() {
+    const altTextElement = document.getElementById("alt-text");
+    altTextElement.style.display = "block"; }

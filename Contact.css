@@ -40,6 +40,7 @@ nav {
 }
 
 nav ul {
+    justify-content: center;
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -76,6 +77,7 @@ nav ul li:hover {background-color: #D3D3D3; }
 .dropdown li a:hover { background-color: #D3D3D3;}
 
 .show {display: block; }
+
 
 
 

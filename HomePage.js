@@ -1,21 +1,27 @@
 
 
-
+/// Displays name when you click the "Enter Name" button and enter your name
 document.getElementById("nameButton").addEventListener("click", function() {
     const userName = prompt("Please enter your name");
     document.getElementById("nameDisplay").textContent = `Hello, ${userName}! Welcome to the site.`})
 
 
-// Naviagation part Where you are able to move to different links when clicked 
+// Navigation part where you are able to move to different links when clicked
 document.getElementById('navItem1').addEventListener('click', function() {
-    window.location.href = 'HomePage.html' })
+    window.location.href = 'HomePage.html';
+});
 
 document.getElementById('navItem2').addEventListener('click', function() {
-    window.location.href = 'Portfolio.html' })
+    window.location.href = 'Portfolio.html';
+});
 
 document.getElementById('navItem3').addEventListener('click', function() {
-    window.location.href = 'Contact.html' })
+    window.location.href = 'WorkExperience.html';
+});
 
+document.getElementById('navItem4').addEventListener('click', function() {
+    window.location.href = 'Contact.html';
+});
 
 
     document.getElementById('photo').addEventListener('click', function() {

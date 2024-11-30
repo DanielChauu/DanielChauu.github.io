@@ -6,9 +6,10 @@ document.getElementById("nameButton").addEventListener("click", function() {
     document.getElementById("nameDisplay").textContent = `Hello, ${userName}! Welcome to the site.`})
 
 
+
 // Navigation part where you are able to move to different links when clicked
 document.getElementById('navItem1').addEventListener('click', function() {
-    window.location.href = 'HomePage.html';
+    window.location.href = 'Index.html';
 });
 
 document.getElementById('navItem2').addEventListener('click', function() {

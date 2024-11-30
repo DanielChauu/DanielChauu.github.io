@@ -1,54 +1,77 @@
-
-nav {
-    position: sticky;
-    font-size: 16px;
-    top: 0;
-    z-index: 1000; 
+/* Reset browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Navigation Bar Styles */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 16px;
+    background-color: #01200F;
+}
+
+/* Centered navigation menu */
 nav ul {
+    display: flex;
     justify-content: center;
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     background-color: #01200F;
-     display: flex;
-        }
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+/* Navigation items */
 nav ul li {
-     padding: 15px 20px;
-     color: #ffffff;
-     cursor: pointer;
-     position: relative;
-        }
-        
-nav ul li:hover {background-color: #D3D3D3; }
+    padding: 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
 
+/* Hover effect for nav items */
+nav ul li:hover {
+    background-color: #D3D3D3;
+}
+
+/* Dropdown menu styling */
 .dropdown {
-     display: none;
-     position: absolute;
-     top: 100%;
-     left: 0;
-     background-color: #01200F;
-     list-style-type: none;
-     padding: 0;
-     margin: 0; }
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #01200F;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+/* Dropdown items */
 .dropdown li {
-     padding: 10px;}
+    padding: 10px;
+}
 
+/* Dropdown links */
 .dropdown li a {
-     color: white;
-     text-decoration: none;}
+    color: white;
+    text-decoration: none;
+}
 
-.dropdown li a:hover { background-color: #D3D3D3;}
+/* Hover effect for dropdown links */
+.dropdown li a:hover {
+    background-color: #D3D3D3;
+}
 
-.show {display: block; }
+/* Show dropdown */
+.show {
+    display: block;
+}
 
 
 
-
-
+ /* Text Styles */
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
@@ -85,7 +108,7 @@ h4 {
     text-align: center;
 }
 
-
+ /* Image placements/Styles*/
 .image-container {
     display: flex;
     justify-content: center; 
@@ -111,6 +134,20 @@ img {
     font-size: 0.9em;
     color: #000000; 
 }
-
-
-
+.profile-text {
+    max-width: 760px; 
+    margin: 0 auto; 
+    padding: 10px;
+    font-family: Times New Roman, serif;
+    font-size: 14pt;    
+    color: #01200F;
+    line-height: 1.5;
+}
+.footer {
+    background-color: #01200F; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: auto; 
+    font-size: 14px; 
+}
